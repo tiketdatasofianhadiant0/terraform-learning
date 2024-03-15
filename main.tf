@@ -1,6 +1,5 @@
 provider "google" {
     project = "learning-terraform-220783"
-    credentials = "${file("credentials.json")}"
     region = "asia-southeast2"
     zone = "asia-southeast2-c"
 }
