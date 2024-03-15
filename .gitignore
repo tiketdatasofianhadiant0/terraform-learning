@@ -1,0 +1,7 @@
+agoda/*
+bin
+jinja_env
+credentials.json
+note.txt
+output.txt
+tf_generator.py
