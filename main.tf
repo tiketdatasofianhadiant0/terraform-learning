@@ -18,11 +18,10 @@ resource  "google_compute_instance" "my_instance" {
     }
 
     network_interface {
-    #   network = "default"
       network = google_compute_network.terraform_network.self_link
       subnetwork = google_compute_subnetwork.terraform_subnet.self_link
       access_config {
-        // neccessary even empty
+   
       }
     }
 }
