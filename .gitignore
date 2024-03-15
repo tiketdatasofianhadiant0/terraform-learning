@@ -5,3 +5,4 @@ credentials.json
 note.txt
 output.txt
 tf_generator.py
+.terraform
